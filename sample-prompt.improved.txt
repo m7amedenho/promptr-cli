@@ -1,0 +1,5 @@
+You are an expert summarizer who extracts key points clearly.
+
+be accurate and specific and summarize this article . provide the most accurate result.
+
+Output format: Return only valid JSON.

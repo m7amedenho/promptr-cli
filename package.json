@@ -1,0 +1,40 @@
+{
+  "name": "promptr-cli",
+  "version": "1.0.3",
+  "description": "Offline-first prompt improvement CLI with optional LLM mode",
+  "type": "module",
+  "bin": {
+    "promptr": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md"
+  ],
+  "main": "./src/engine.js",
+  "exports": {
+    ".": "./src/engine.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "check": "node bin/cli.js skills"
+  },
+  "keywords": [
+    "prompt",
+    "prompt-engineering",
+    "llm",
+    "ai",
+    "cli",
+    "developer-tool"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.64.0",
+    "chalk": "^5.6.0",
+    "commander": "^14.0.1",
+    "ora": "^9.0.0"
+  }
+}
